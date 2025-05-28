@@ -1,10 +1,23 @@
 /* 2 - media query */
 h1 {
-  color: red;
+    color: red;
 }
 
 @media screen and (max-width: 500px) {
     h1 {
         color: blue;
+    }
+}
+
+/* 3 - min-width */
+p {
+    background-color: red;
+    color: #000;
+}
+
+@media screen and (min-width: 700px) {
+    p {
+        background-color: #789;
+        color: red;
     }
 }
